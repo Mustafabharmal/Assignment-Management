@@ -40,7 +40,7 @@ class CourseView extends JFrame
         try
         {
             //we will change host code for the requirement of the submission 
-            Socket ss=new Socket("localhost",5000);
+            Socket ss=new Socket("localhost",300);
             dos=new DataOutputStream(ss.getOutputStream());
             dis=new DataInputStream(ss.getInputStream());
             // isr =new InputStreamReader(ss.getInputStream());

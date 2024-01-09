@@ -25,7 +25,7 @@ public static String getFileExtension(String filename)
         // while(true){
             try
             { 
-                ss=new ServerSocket(5000);
+                ss=new ServerSocket(300);
                 // s=new Socket("local host",5000);
                 // ss=new Socket();
                 cs=ss.accept();
